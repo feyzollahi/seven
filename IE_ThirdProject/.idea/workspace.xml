@@ -1,0 +1,1545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ie_third:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9c5ab24-2d07-4e69-90ca-212a936c8014" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/Scheduler/CustomTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/Scheduler/Scheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/controller/SearchProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/controller/SearchUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/DBCPDBConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/IMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/ProjectMapper/AdvancedProjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/ProjectMapper/BidMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/ProjectMapper/ProjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/ProjectMapper/ProjectSkillMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/SkillMapper/SkillMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/AdvancedUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/EndorseInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/EndorseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/IUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/UserSkillMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/student/IStudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/student/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dbConnectionPool/BasicDBConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dbConnectionPool/DBConnectionPoolException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dbConnectionPool/ResourcePool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dbConnectionPool/impl/SQLiteBasicDBConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/main/java/model/Exceptions/DupEndorse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/test/java/ProjectMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/test/java/ProjectSkillMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/test/java/UserMapperListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/test/java/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE_Third/src/test/java/UserSkillMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/controller/AddSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/controller/AddSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/controller/AddSkillCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/controller/AddSkillCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/controller/DeleteSkillCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/controller/DeleteSkillCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/controller/EndorseCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/controller/EndorseCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/controller/HomePageCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/controller/HomePageCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/controller/ProjectList.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/controller/ProjectList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowAllProjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowAllProjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowAllUsersCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowAllUsersCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowSpecifiedProjectCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowSpecifiedProjectCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowSpecifiedUserCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowSpecifiedUserCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/controller/SkillList.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/controller/SkillList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/controller/UserBidProjectCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/controller/UserBidProjectCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/controller/homeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/controller/homeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/model/Bid/Bid.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/model/Bid/Bid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/model/Project/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/model/Project/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/GetRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/GetRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/ProjectsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/ProjectsRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/SkillsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/SkillsRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/UsersRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/UsersRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/model/Skill/ProjectSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/model/Skill/ProjectSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/model/Skill/UserSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/model/Skill/UserSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/model/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/model/User/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/java/springController/ProjectSummaryData.java" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/java/springController/ProjectSummaryData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/controller/AddSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/controller/AddSkill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/controller/AddSkillCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/controller/AddSkillCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/controller/DeleteSkillCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/controller/DeleteSkillCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/controller/EndorseCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/controller/EndorseCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/controller/HomePageCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/controller/HomePageCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/controller/ProjectList.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/controller/ProjectList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/controller/ShowAllProjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/controller/ShowAllProjects.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/controller/ShowAllUsersCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/controller/ShowAllUsersCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/controller/ShowSpecifiedProjectCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/controller/ShowSpecifiedProjectCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/controller/ShowSpecifiedUserCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/controller/ShowSpecifiedUserCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/controller/SkillList.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/controller/SkillList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/controller/UserBidProjectCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/controller/UserBidProjectCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/controller/homeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/controller/homeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/model/Bid/Bid.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/model/Bid/Bid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/model/Project/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/model/Project/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/model/Repo/GetRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/model/Repo/GetRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/model/Repo/ProjectsRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/model/Repo/ProjectsRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/model/Repo/SkillsRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/model/Repo/SkillsRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/model/Repo/UsersRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/model/Repo/UsersRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/model/Skill/ProjectSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/model/Skill/ProjectSkill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/model/Skill/UserSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/model/Skill/UserSkill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/model/User/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/model/User/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/classes/springController/ProjectSummaryData.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/classes/springController/ProjectSummaryData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/AddSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/AddSkill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/AddSkillCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/AddSkillCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/DeleteSkillCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/DeleteSkillCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/EndorseCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/EndorseCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/HomePageCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/HomePageCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/ProjectList.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/ProjectList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/ShowAllProjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/ShowAllProjects.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/ShowAllUsersCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/ShowAllUsersCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/ShowSpecifiedProjectCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/ShowSpecifiedProjectCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/ShowSpecifiedUserCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/ShowSpecifiedUserCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/SkillList.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/SkillList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/UserBidProjectCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/UserBidProjectCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/homeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/controller/homeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Bid/Bid.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Bid/Bid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Project/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Project/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Repo/GetRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Repo/GetRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Repo/ProjectsRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Repo/ProjectsRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Repo/SkillsRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Repo/SkillsRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Repo/UsersRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Repo/UsersRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Skill/ProjectSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Skill/ProjectSkill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Skill/UserSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/Skill/UserSkill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/User/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/model/User/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/springController/ProjectSummaryData.class" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/classes/springController/ProjectSummaryData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IE_Third/target/ie_third/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/axios/axios/dist/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/axios/axios/dist/axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/axios/axios/dist/axios.map" beforeDir="false" afterPath="$PROJECT_DIR$/axios/axios/dist/axios.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/axios/axios/dist/axios.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/axios/axios/dist/axios.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/axios/axios/dist/axios.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/axios/axios/dist/axios.min.map" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/IE_Third/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="joboonja.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="joboonja.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="joboonja.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="joboonja.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+        <item name="sqlite_master: table" type="ffe0bd85:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="joboonja.db" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1353150544">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="33" />
+          <entry key="css" value="11" />
+          <entry key="db" value="5" />
+          <entry key="html" value="19" />
+          <entry key="java" value="257" />
+          <entry key="jpg" value="2" />
+          <entry key="js" value="7" />
+          <entry key="jsp" value="26" />
+          <entry key="png" value="8" />
+          <entry key="sql" value="1" />
+          <entry key="sqlite_master" value="3" />
+          <entry key="user" value="6" />
+          <entry key="xml" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="33" />
+          <entry key="CSS" value="11" />
+          <entry key="Database Element" value="9" />
+          <entry key="HTML" value="19" />
+          <entry key="Image" value="10" />
+          <entry key="JAVA" value="257" />
+          <entry key="JSP" value="26" />
+          <entry key="JavaScript" value="7" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="14" />
+          <entry key="YAML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="718" />
+          <entry key="dummy" value="7" />
+          <entry key="html" value="1869" />
+          <entry key="java" value="20849" />
+          <entry key="js" value="1515" />
+          <entry key="jsp" value="54" />
+          <entry key="txt" value="197" />
+          <entry key="xml" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="718" />
+          <entry key="HTML" value="1869" />
+          <entry key="JAVA" value="20849" />
+          <entry key="JSP" value="54" />
+          <entry key="JavaScript" value="1515" />
+          <entry key="PLAIN_TEXT" value="204" />
+          <entry key="XML" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2129">
+              <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/ProjectList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="60" column="20" lean-forward="true" selection-start-line="57" selection-start-column="8" selection-end-line="60" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/ProjectsRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowSpecifiedProjectCtrl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-201">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowSpecifiedUserCtrl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="67" column="27" lean-forward="true" selection-start-line="62" selection-start-column="12" selection-end-line="67" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/SearchUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/SearchProject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/ProjectMapper/ProjectMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="183" column="55" selection-start-line="183" selection-start-column="55" selection-end-line="183" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowAllUsersCtrl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="50" column="15" selection-start-line="50" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/model/Project/Project.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+              <folding>
+                <element signature="e#4625#4626#0" expanded="true" />
+                <element signature="e#4692#4693#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.jsp</find>
+      <find>&quot;&quot;</find>
+      <find>home</find>
+      <find>homeServlet</find>
+      <find>fling-minislide</find>
+      <find>user.html</find>
+      <find>send</find>
+      <find>reader</find>
+      <find>bid :</find>
+      <find>JSONObject</find>
+      <find>profilePictureURLText</find>
+      <find>taca</find>
+      <find>projectMapper</find>
+      <find>getBiddingUser</find>
+      <find>insertObjectToDB</find>
+      <find>setUser</find>
+      <find>File</find>
+      <find>insert</find>
+      <find>delete</find>
+      <find>skill</find>
+      <find>w</find>
+      <find>setSkills</find>
+      <find>homePageCtrl</find>
+      <find>SkillRepo</find>
+      <find>System.out</find>
+      <find>isRead</find>
+      <find>jobTitle</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>signUpSlideShow</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/IE_Third/src/main/webapp</dir>
+      <dir>$PROJECT_DIR$/IE_Third/src/main/java</dir>
+      <dir>$PROJECT_DIR$/IE_Third/src/main/java/controller</dir>
+      <dir>$PROJECT_DIR$/IE_Third/src/main/webapp/jsp</dir>
+      <dir>$PROJECT_DIR$/IE_Third/src/main</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/model/Exceptions/DupEndorse.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dbConnectionPool/BasicDBConnectionPool.java" />
+        <option value="$PROJECT_DIR$/IE_Third/pom.xml" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/student/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/student/IStudentMapper.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/test/java/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/IUserMapper.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/test/java/UserMapperListTest.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/test/java/UserSkillMapperTest.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/model/Skill/ProjectSkill.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/model/Skill/Skill.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/test/java/ProjectMapperTest.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/test/java/ProjectSkillMapperTest.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/Mapper.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/EndorseInfo.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/ProjectMapper/ProjectSkillMapper.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/model/Bid/Bid.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/DBCPDBConnectionPool.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/GetRepo.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/ProjectMapper/BidMapper.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/controller/AddSkill.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/AdvancedUserMapper.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/controller/DeleteSkillCtrl.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/controller/EndorseCtrl.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/ProjectMapper/AdvancedProjectMapper.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowAllProjects.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowAllUsersCtrl.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowSpecifiedProjectCtrl.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowSpecifiedUserCtrl.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/SkillsRepo.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/controller/SkillList.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/model/Project/Project.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/controller/UserBidProjectCtrl.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/model/User/User.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/controller/AddSkillCtrl.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/controller/HomePageCtrl.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/SkillMapper/SkillMapper.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/UserSkillMapper.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/EndorseMapper.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/Scheduler/CustomTask.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/UsersRepo.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/Scheduler/Scheduler.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/controller/homeServlet.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/springController/ProjectSummaryData.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/controller/ProjectList.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/ProjectsRepo.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/controller/SearchUser.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/controller/SearchProject.java" />
+        <option value="$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/ProjectMapper/ProjectMapper.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ie_third Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/axios/axios/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/axios/axios/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1299" />
+    <option name="height" value="741" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE_ThirdProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE_ThirdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IE_Third" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE_ThirdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IE_Third" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE_ThirdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IE_Third" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE_ThirdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IE_Third" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE_ThirdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IE_Third" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE_ThirdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IE_Third" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataLayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE_ThirdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IE_Third" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="dataMappers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE_ThirdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IE_Third" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="dataMappers" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectMapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE_ThirdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IE_Third" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Scheduler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE_ThirdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IE_Third" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE_ThirdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IE_Third" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE_ThirdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IE_Third" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE_ThirdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IE_Third" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557141538138" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/IE_Third/joboonja.db" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="model.Exceptions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/IE_Third/src/main/java" />
+      <recent name="$PROJECT_DIR$/IE_Third/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/IE_Third/src/main/webapp/signUp" />
+      <recent name="$PROJECT_DIR$/IE_Third/src/main/webapp/project" />
+      <recent name="$PROJECT_DIR$/IE_Third/src/main/webapp/user" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="springController" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/IE_Third/src/main/webapp/images" />
+      <recent name="$PROJECT_DIR$/IE_Third/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/IE_Third/src/main/webapp/specifiedProject" />
+      <recent name="$PROJECT_DIR$/IE_Third/src/main/webapp/jsp" />
+      <recent name="$PROJECT_DIR$/IE_Third/src/main/resources/icons" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration name="ProjectMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ie_third" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProjectMapperTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectSkillMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ie_third" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProjectSkillMapperTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ie_third" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserMapperListTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ie_third" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserMapperTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserSkillMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ie_third" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserSkillMapperTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ie_third:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ie" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="40715" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ie_third:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="JUnit.UserMapperTest" />
+      <item itemvalue="JUnit.UserMapperListTest" />
+      <item itemvalue="JUnit.UserSkillMapperTest" />
+      <item itemvalue="JUnit.ProjectMapperTest" />
+      <item itemvalue="JUnit.ProjectSkillMapperTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProjectMapperTest" />
+        <item itemvalue="JUnit.ProjectSkillMapperTest" />
+        <item itemvalue="JUnit.UserSkillMapperTest" />
+        <item itemvalue="JUnit.UserMapperListTest" />
+        <item itemvalue="JUnit.UserMapperTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9c5ab24-2d07-4e69-90ca-212a936c8014" name="Default Changelist" comment="" />
+      <created>1551944217657</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551944217657</updated>
+      <workItem from="1551944219097" duration="11348000" />
+      <workItem from="1551985982956" duration="7208000" />
+      <workItem from="1552028349453" duration="1435000" />
+      <workItem from="1552030188595" duration="20388000" />
+      <workItem from="1552121229182" duration="624000" />
+      <workItem from="1552132996819" duration="599000" />
+      <workItem from="1552802945628" duration="13497000" />
+      <workItem from="1552899249043" duration="25006000" />
+      <workItem from="1552980994314" duration="19233000" />
+      <workItem from="1553016109546" duration="1200000" />
+      <workItem from="1554108855548" duration="8017000" />
+      <workItem from="1554191862382" duration="13669000" />
+      <workItem from="1554365171404" duration="1821000" />
+      <workItem from="1554618826275" duration="3805000" />
+      <workItem from="1554624618340" duration="814000" />
+      <workItem from="1554703435473" duration="848000" />
+      <workItem from="1554791448633" duration="2340000" />
+      <workItem from="1554818045575" duration="1282000" />
+      <workItem from="1554972073877" duration="9632000" />
+      <workItem from="1555075851618" duration="1576000" />
+      <workItem from="1556343822429" duration="1426000" />
+      <workItem from="1556457204319" duration="6145000" />
+      <workItem from="1556544928525" duration="8646000" />
+      <workItem from="1556604481970" duration="5874000" />
+      <workItem from="1556800800033" duration="45526000" />
+      <workItem from="1557040561395" duration="16724000" />
+      <workItem from="1557065615608" duration="2396000" />
+      <workItem from="1557121880447" duration="15170000" />
+    </task>
+    <task id="LOCAL-00001" summary="servlet json response complete and skill list and add skill and project list in simple html complete and just filter and CORS remained">
+      <created>1553011980372</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553011980373</updated>
+    </task>
+    <task id="LOCAL-00002" summary="filter and CORS finished">
+      <created>1553017401590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553017401590</updated>
+    </task>
+    <task id="LOCAL-00003" summary="improved for good send response">
+      <created>1554296062892</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554296062892</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ProjectSkillMapperTest - 2019.05.03 at 22h 49m 26s.xml">
+      <configuration name="ProjectSkillMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectSkillMapperTest - 2019.05.03 at 22h 50m 50s.xml">
+      <configuration name="ProjectSkillMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectSkillMapperTest - 2019.05.03 at 22h 51m 00s.xml">
+      <configuration name="ProjectSkillMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectSkillMapperTest - 2019.05.03 at 22h 55m 06s.xml">
+      <configuration name="ProjectSkillMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectSkillMapperTest - 2019.05.03 at 22h 56m 30s.xml">
+      <configuration name="ProjectSkillMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectSkillMapperTest - 2019.05.03 at 22h 56m 54s.xml">
+      <configuration name="ProjectSkillMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectSkillMapperTest - 2019.05.03 at 22h 57m 10s.xml">
+      <configuration name="ProjectSkillMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectSkillMapperTest - 2019.05.03 at 22h 58m 03s.xml">
+      <configuration name="ProjectSkillMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectSkillMapperTest - 2019.05.03 at 22h 58m 16s.xml">
+      <configuration name="ProjectSkillMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectMapperTest - 2019.05.05 at 18h 53m 34s.xml">
+      <configuration name="ProjectMapperTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="246249000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5628931" visible="true" weight="0.31763768" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.4371069" side_tool="true" visible="true" weight="0.31763768" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32952693" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.4812398" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39967373" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32952693" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32952693" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="9" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32952693" />
+      <window_info anchor="bottom" id="Tool Output" order="11" weight="0.32952693" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32952693" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32952693" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32952693" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="17" weight="0.32952693" />
+      <window_info anchor="bottom" id="Spring" order="18" />
+      <window_info anchor="bottom" id="TypeScript" order="19" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32960895" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32960895" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.56594723" visible="true" weight="0.3064645" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.43405277" side_tool="true" weight="0.37031126" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32952693" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.31973898" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39967373" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32952693" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32952693" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="9" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32952693" />
+      <window_info anchor="bottom" id="Tool Output" order="11" weight="0.32952693" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32952693" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32952693" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32952693" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="17" weight="0.32952693" />
+      <window_info anchor="bottom" id="Spring" order="18" />
+      <window_info anchor="bottom" id="TypeScript" order="19" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32960895" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32960895" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="servlet json response complete and skill list and add skill and project list in simple html complete and just filter and CORS remained" />
+    <MESSAGE value="filter and CORS finished" />
+    <MESSAGE value="improved for good send response" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved for good send response" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/IE_Third/src/test/java/UserMapperTest.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/IE_Third/src/test/java/UserSkillMapperTest.java</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/IE_Third/src/test/java/ProjectMapperTest.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/IE_Third/src/test/java/ProjectSkillMapperTest.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/test/java/UserSkillMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="965">
+          <caret line="93" column="14" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-1/junit-4.13-beta-1.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-1/junit-4.13-beta-1.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-1/junit-4.13-beta-1.jar!/org/junit/internal/runners/statements/RunBefores.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-1/junit-4.13-beta-1.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-1/junit-4.13-beta-1.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-1/junit-4.13-beta-1.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/test/java/ProjectSkillMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-1/junit-4.13-beta-1.jar!/org/junit/internal/runners/statements/RunAfters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/model/Bid/Bid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1e108949-0811-4907-82e7-e8ef6bc9aed2/schema/main/table/user" />
+    <entry file="file://$PROJECT_DIR$/IE_Third/joboonja.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="107" lean-forward="true" selection-start-line="4" selection-start-column="107" selection-end-line="4" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1e108949-0811-4907-82e7-e8ef6bc9aed2/schema/main/table/sqlite_master" />
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/DBCPDBConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/test/java/ProjectMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/EndorseInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/IUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/GetRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/AddSkill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/AdvancedUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="88" column="53" lean-forward="true" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/DeleteSkillCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/EndorseCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="53" column="28" lean-forward="true" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/ProjectMapper/AdvancedProjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/model/User/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="152" column="40" selection-start-line="152" selection-start-column="40" selection-end-line="152" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/UserBidProjectCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="64" column="58" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/AddSkillCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/HomePageCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/SkillList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/ProjectMapper/BidMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-545">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/ProjectMapper/ProjectSkillMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/SkillMapper/SkillMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/SkillsRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/UserSkillMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="71" column="35" lean-forward="true" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/EndorseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1715#1716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/UsersRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/Scheduler/CustomTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/Scheduler/Scheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="23" column="87" selection-start-line="23" selection-start-column="87" selection-end-line="23" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/homeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="48" column="41" lean-forward="true" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowAllProjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/springController/ProjectSummaryData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#1700#1701#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/model/Project/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+          <folding>
+            <element signature="e#4625#4626#0" expanded="true" />
+            <element signature="e#4692#4693#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowAllUsersCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="50" column="15" selection-start-line="50" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/ProjectList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="60" column="20" lean-forward="true" selection-start-line="57" selection-start-column="8" selection-end-line="60" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowSpecifiedUserCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="67" column="27" lean-forward="true" selection-start-line="62" selection-start-column="12" selection-end-line="67" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/UserMapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2129">
+          <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/SearchUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/dataLayer/dataMappers/ProjectMapper/ProjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="183" column="55" selection-start-line="183" selection-start-column="55" selection-end-line="183" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/model/Repo/ProjectsRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/ShowSpecifiedProjectCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_Third/src/main/java/controller/SearchProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ie_third:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ie_third</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.googlecode.json-simple:json-simple:1.1.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
